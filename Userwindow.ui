@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserWindow</class>
+ <widget class="QMainWindow" name="UserWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>761</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>801</width>
+    <height>761</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>801</width>
+    <height>761</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>User - Cataloging Department</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Курсовая.qrc">
+    <normaloff>:/Эмблема/Эмблема2.png</normaloff>:/Эмблема/Эмблема2.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tab_subscr">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>190</y>
+      <width>611</width>
+      <height>231</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_user_data">
+    <property name="geometry">
+     <rect>
+      <x>464</x>
+      <y>53</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(229, 228, 224);
+color: rgb(84, 55, 59);</string>
+    </property>
+    <property name="text">
+     <string>Мои данные</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_user_exit">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>100</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(229, 228, 224);
+color: rgb(84, 55, 59);</string>
+    </property>
+    <property name="text">
+     <string>Выход</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lab_user_name">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>10</y>
+      <width>271</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 55, 57);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tab_book_or_publish">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>500</y>
+      <width>711</width>
+      <height>241</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_book">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>450</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(229, 228, 224);
+color: rgb(84, 55, 59);</string>
+    </property>
+    <property name="text">
+     <string>Книги</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_publish">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>450</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(229, 228, 224);
+color: rgb(84, 55, 59);</string>
+    </property>
+    <property name="text">
+     <string>Издательства</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>761</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Фон_юзер2.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_order">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>450</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(229, 228, 224);
+color: rgb(84, 55, 59);</string>
+    </property>
+    <property name="text">
+     <string>Взять книгу</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lab_info">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>740</y>
+      <width>801</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(156, 128, 124);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string> По всем вопросам - обращайтесь к библиотекарю.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>tab_subscr</zorder>
+   <zorder>btn_user_data</zorder>
+   <zorder>btn_user_exit</zorder>
+   <zorder>lab_user_name</zorder>
+   <zorder>tab_book_or_publish</zorder>
+   <zorder>btn_book</zorder>
+   <zorder>btn_publish</zorder>
+   <zorder>btn_order</zorder>
+   <zorder>lab_info</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Курсовая.qrc"/>
+ </resources>
+ <connections/>
+</ui>
